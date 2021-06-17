@@ -286,8 +286,7 @@ caption {
 }
 
 th {
-  text-align: inherit;
-  text-align: -webkit-match-parent;
+  text-align: center;
 }
 
 thead,
@@ -296,9 +295,9 @@ tfoot,
 tr,
 td,
 th {
-  border-color: inherit;
+  border-color: #000000;
   border-style: solid;
-  border-width: 0;
+  border-width: 1px;
 }
 
 label {
@@ -7420,6 +7419,9 @@ textarea.form-control-lg {
   background-color: #212529 !important;
 }
 
+.bg-blue {
+  background-color: #2EA9DF !important;
+}
 .bg-body {
   background-color: #fff !important;
 }
